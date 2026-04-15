@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BTS Universe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero" id="inicio">
+    <nav>
+        <h1>BTS Universe 💜</h1>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#miembros">Miembros</a></li>
+            <li><a href="#albums">Álbumes</a></li>
+            <li><a href="#premios">Premios</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero-content">
+        <h2>Bienvenido al Universo BTS</h2>
+        <p>
+            Explora la historia, integrantes, discografía y logros del grupo
+            surcoreano que revolucionó la música mundial.
+        </p>
+        <a href="#historia" class="btn">Explorar Ahora</a>
+    </div>
+</header>
+
+<section id="historia" class="section">
+    <h2>Historia de BTS</h2>
+    <img src="img/bts-group.jpg" class="history-img" alt="BTS Group">
+    <p>
+        BTS, también conocido como Bangtan Sonyeondan, debutó el 13 de junio de 2013 
+        bajo BigHit Entertainment con la canción "No More Dream".
+    </p>
+    <p>
+        Inicialmente comenzaron como un grupo de hip-hop, pero con el tiempo
+        evolucionaron hacia múltiples géneros musicales, incorporando pop, R&B,
+        EDM y rock en sus producciones.
+    </p>
+    <p>
+        BTS se destacó por abordar en sus canciones temas como salud mental,
+        autoestima, juventud, presión social y amor propio, conectando con millones
+        de personas alrededor del mundo.
+    </p>
+    <p>
+        Gracias a su talento, esfuerzo y conexión con ARMY, se convirtieron en el
+        primer grupo surcoreano en liderar Billboard Hot 100 y llenar estadios
+        internacionales como Wembley y SoFi Stadium.
+    </p>
+</section>
+
+<section id="miembros" class="section">
+    <h2>Miembros de BTS</h2>
+    <div class="cards">
+
+        <div class="card" onclick="mostrarBio('RM','Kim Nam-joon es el líder de BTS, rapero principal, productor y compositor. Habla inglés fluidamente y ha liderado el mensaje global del grupo.', 'img/rm.jpg')">
+            <img src="img/rm.jpg" alt="RM">
+            <h3>RM</h3>
+        </div>
+
+        <div class="card" onclick="mostrarBio('Jin','Kim Seok-jin es vocalista y visual de BTS. Destaca por su voz estable, carisma y humor dentro del grupo.', 'img/jin.jpg')">
+            <img src="img/jin.jpg" alt="Jin">
+            <h3>Jin</h3>
+        </div>
+
+        <div class="card" onclick="mostrarBio('Suga','Min Yoon-gi es rapero, productor y compositor. También trabaja como solista bajo el nombre Agust D.', 'img/suga.jpg')">
+            <img src="img/suga.jpg" alt="Suga">
+            <h3>Suga</h3>
+        </div>
+
+        <div class="card" onclick="mostrarBio('J-Hope','Jung Ho-seok es bailarín principal, rapero y coreógrafo del grupo. Reconocido por su energía y talento escénico.', 'img/jhope.jpg')">
+            <img src="img/jhope.jpg" alt="J-Hope">
+            <h3>J-Hope</h3>
+        </div>
+
+        <div class="card" onclick="mostrarBio('Jimin','Park Ji-min es vocalista y bailarín principal. Destaca por su expresividad y técnica de baile contemporáneo.', 'img/jimin.jpg')">
+            <img src="img/jimin.jpg" alt="Jimin">
+            <h3>Jimin</h3>
+        </div>
+
+        <div class="card" onclick="mostrarBio('V','Kim Tae-hyung es vocalista reconocido por su voz grave única y talento actoral.', 'img/v.jpg')">
+            <img src="img/v.jpg" alt="V">
+            <h3>V</h3>
+        </div>
+
+        <div class="card" onclick="mostrarBio('Jungkook','Jeon Jung-kook es vocalista principal, centro y maknae del grupo, destacado por su versatilidad artística.', 'img/jungkook.jpg')">
+            <img src="img/jungkook.jpg" alt="Jungkook">
+            <h3>Jungkook</h3>
+        </div>
+
+    </div>
+</section>
+
+<section id="albums" class="section">
+    <h2>Álbumes Destacados</h2>
+    <div class="album-grid">
+
+        <div class="album-card">
+            <img src="img/album1.jpg" alt="Map of the Soul 7">
+            <h3>Map of the Soul: 7</h3>
+            <p>2020 - Reflexiona sobre identidad, ego y crecimiento personal.</p>
+        </div>
+
+        <div class="album-card">
+            <img src="img/album2.jpg" alt="BE">
+            <h3>BE</h3>
+            <p>2020 - Álbum creado durante la pandemia con mensajes de esperanza.</p>
+        </div>
+
+        <div class="album-card">
+            <img src="img/album3.jpg" alt="Love Yourself Tear">
+            <h3>Love Yourself: Tear</h3>
+            <p>2018 - Trata el dolor y crecimiento en el amor.</p>
+        </div>
+
+        <div class="album-card">
+            <img src="img/album4.jpg" alt="Proof">
+            <h3>Proof</h3>
+            <p>2022 - Antología de su trayectoria musical.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="premios" class="section">
+    <h2>Premios y Reconocimientos</h2>
+    <ul class="premios-lista">
+        <li>🏆 Billboard Music Awards múltiples veces</li>
+        <li>🏆 American Music Awards</li>
+        <li>🏆 MTV Video Music Awards</li>
+        <li>🏆 Artist of the Year 2021</li>
+        <li>🏆 Embajadores Presidenciales de Corea del Sur</li>
+        <li>🏆 Conferencistas en la ONU</li>
+    </ul>
+</section>
+
+<footer>
+    <p>© 2026 BTS Universe Fan Page 💜</p>
+</footer>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span onclick="cerrarModal()" class="close">&times;</span>
+        <img id="modal-img" alt="Miembro BTS">
+        <h2 id="modal-title"></h2>
+        <p id="modal-text"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
