@@ -146,7 +146,7 @@ nav a:hover{
 .card:hover,
 .album-card:hover{
     transform:translateY(-10px) scale(1.03);
-    box-shadow:0 15px 35px rgba(217,70,239,.45);
+    box-shadow:0 15px 35px rgba(216, 72, 238, 0.45);
 }
 
 /* IMÁGENES DE MIEMBROS MÁS GRANDES */
